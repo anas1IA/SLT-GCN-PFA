@@ -17,7 +17,7 @@ def extract_featrs_from_one_sample(base_path, char: str = "A", label: int = 0):
 
     char_path = osp.join(base_path, char)
 
-    for sample in os.listdir(char_path)[:100]:
+    for sample in os.listdir(char_path)[:1000]:
 
         hand = asl.Hand()
 
